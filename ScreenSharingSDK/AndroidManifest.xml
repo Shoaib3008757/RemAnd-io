@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ ~ Copyright 2013-2014 TeamViewer (www.teamviewer.com).  All rights reserved.
+ ~
+ ~ Please refer to the end user license agreement (EULA), the app developer agreement and license 
+ ~ information associated with this source code for terms and 
+ ~ conditions that govern your use of this software. 
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.teamviewer.sdk.screensharing"
+    android:versionCode="4392"
+    android:versionName="11.0.4392" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission
+        android:name="android.permission.SYSTEM_ALERT_WINDOW"
+        android:maxSdkVersion="22" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application>
+        <service android:name="com.teamviewer.sdk.screensharing.api.TVSessionService" />
+    </application>
+
+</manifest>

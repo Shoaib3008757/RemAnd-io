@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/E:/WS/A_TV11F_SDK/IncomingSessionLib/res/values-hdpi/dimens.xml -->
+    <eat-comment/>
+    <dimen name="tv_show_marker_hotspot_x">29px</dimen>
+    <dimen name="tv_show_marker_hotspot_y">15px</dimen>
+    <!-- From: file:/E:/WS/A_TV11F_SDK/ScreenSharingSDK/res/values-hdpi/dimens.xml -->
+    <eat-comment/>
+    <dimen name="tv_widget_teamviewer_offset_y">80px</dimen>
+</resources>

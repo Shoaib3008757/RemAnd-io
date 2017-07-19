@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/E:/WS/A_TV11F_SDK/TeamViewerLib/res/values/arrays.xml -->
+    <eat-comment/>
+    <string-array name="tv_logLevel">
+        <item>Debug</item>
+        <item>Info</item>
+        <item>Warning</item>
+        <item>Error</item>
+    </string-array>
+    <string-array name="tv_options_AutoLock">
+        <item>@string/tv_options_EnableAutoLocking_AutoSelect</item>
+        <item>@string/tv_options_EnableAutoLocking_Always</item>
+        <item>@string/tv_options_EnableAutoLocking_Disable</item>
+    </string-array>
+    <string-array name="tv_options_AutoLock_values">
+        <item>@string/tv_options_autolock_key_automatic</item>
+        <item>@string/tv_options_autolock_key_always</item>
+        <item>@string/tv_options_autolock_key_disable</item>
+    </string-array>
+    <string-array name="tv_options_InputMethod">
+        <item>@string/tv_options_InputMethodMouse</item>
+        <item>@string/tv_options_InputMethodTouch</item>
+    </string-array>
+    <string-array name="tv_options_PreferredResolution">
+        <item>@string/tv_options_PreferredResolutionDontChange</item>
+        <item>@string/tv_options_PreferredResolutionBestFit</item>
+    </string-array>
+    <string-array name="tv_options_QualitySettings">
+        <item>@string/tv_options_Automatic</item>
+        <item>@string/tv_options_OptimizeQuality</item>
+        <item>@string/tv_options_OptimizeSpeed</item>
+    </string-array>
+    <!-- From: file:/E:/WS/A_TV11F_SDK/TeamViewerLib/res/values/values.xml -->
+    <eat-comment/>
+    <bool name="tv_isBlackBerry">false</bool>
+    <bool name="tv_isHost">false</bool>
+    <bool name="tv_isMeeting">false</bool>
+    <bool name="tv_isQuickSupport">false</bool>
+    <bool name="tv_isQuickSupportFromPlayStore">false</bool>
+    <bool name="tv_isQuickSupportFromSamsungApps">false</bool>
+    <bool name="tv_isRemoteControl">false</bool>
+    <!-- From: file:/E:/WS/A_TV11F_SDK/ScreenSharingSDK/res/values/values.xml -->
+    <eat-comment/>
+    <bool name="tv_isScreenSharingSDK">true</bool>
+    <!-- From: file:/E:/WS/A_TV11F_SDK/TeamViewerLib/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="tv_BrightTextColor">#FFFAFA</color>
+    <color name="tv_ButtonBackgroundColor">#606060</color>
+    <color name="tv_DarkTextColor">#FF0000</color>
+    <color name="tv_GreyTextColor">#FF444444</color>
+    <color name="tv_backgroundBar">#202420</color>
+    <color name="tv_backgroundPreferenceCategory">#D02332FF</color>
+    <color name="tv_backgroundSpecialKeyboard">#A0505050</color>
+    <color name="tv_colorButtonSlectionEnd">#06A500</color>
+    <color name="tv_colorButtonSlectionStart">#4AD647</color>
+    <color name="tv_colorRecommendation">#FF0564c8</color>
+    <color name="tv_colorTabSlectionEnd">#037200</color>
+    <color name="tv_colorTabSlectionStart">#06B500</color>
+    <color name="tv_colorTextBright">#FFFAFA</color>
+    <color name="tv_colorTextBrightGrey">#999999</color>
+    <color name="tv_colorTextDark">#FF000000</color>
+    <color name="tv_colorTextGrey">#FF444444</color>
+    <color name="tv_colorTextGreyBright">#FFDBDBDB</color>
+    <!-- From: file:/E:/WS/A_TV11F_SDK/ScreenSharingSDK/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="tv_content_bg_color">#FAFAFA</color>
+    <color name="tv_holo_blue_light">#33b5e5</color>
+    <color name="tv_holo_grey_light">#BDBDBD</color>
+    <!-- From: file:/E:/WS/A_TV11F_SDK/ScreenSharingSDK/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="tv_content_horizontal_position_correction">-6dp</dimen>
+    <dimen name="tv_content_padding_bottom">17dp</dimen>
+    <dimen name="tv_content_padding_left">25dp</dimen>
+    <dimen name="tv_content_padding_right">25dp</dimen>
+    <dimen name="tv_content_padding_top">17dp</dimen>
+    <!-- From: file:/E:/WS/A_TV11F_SDK/TeamViewerLib/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="tv_custom_notification_icon_layout_width">56dp</dimen>
+    <dimen name="tv_qs_virtualbuttonbar_height">40dp</dimen>
+    <dimen name="tv_qs_virtualbuttonbar_margin_items">40dp</dimen>
+    <dimen name="tv_qs_virtualbuttonbar_margin_logo">20dp</dimen>
+    <!-- From: file:/E:/WS/A_TV11F_SDK/ScreenSharingSDK/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="tv_session_overlay_hitbox_offset_x">14dp</dimen>
+    <dimen name="tv_session_overlay_hitbox_offset_y">14dp</dimen>
+    <dimen name="tv_session_overlay_icon_initial_y">50dp</dimen>
+    <dimen name="tv_session_trash_hitbox_offset_x">11dp</dimen>
+    <dimen name="tv_session_trash_hitbox_offset_y">10dp</dimen>
+    <!-- From: file:/E:/WS/A_TV11F_SDK/TeamViewerLib/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="tv_Connection_lost">Internet connection lost</string>
+    <string name="tv_IDS_ACCESS_ASKCONFIRMATION_FORREMOTECONTROL">Do you want to grant your partner access for remote control?</string>
+    <string name="tv_IDS_ACCESS_CONFIRMFOR">Confirm access for %s</string>
+    <string name="tv_IDS_AUTH_RETRY">The password you have entered is invalid, please try again.</string>
+    <string name="tv_IDS_AUTH_RETRY_DYN_OR_FIXED_PWD">The password you entered is not valid for presentation connections. Please try to connect using the presentation password.</string>
+    <string name="tv_IDS_AUTH_RETRY_PRES_PWD">The password you entered is not valid for remote control connections. Please try to connect using the random or the personal remote control password.</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_1">Unspecified error. Please try again later</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_10">Invalid TeamViewer ID</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_11">The partner could not be found</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_12">This partner is already in your contact list</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_13">This account is not validated, yet</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_14">This e-mail adddress is already in use</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_15">The e-mail address could not be found</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_16">The account could not be found</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_17">The group could not be found</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_18">You could not be identified</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_19">The group name is invalid</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_2">Database error. Please try again later</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_20">The username is invalid</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_21">The token is invalid</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_22">The username is too short</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_23">The entered license is invalid</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_24">The username and password you entered do not match any accounts on record</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_25">The number of partners in your list exceeds the maximum for free users.</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_26">One or more accounts could not be added to the blacklist, because the loginnames did not match any records in the database.</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_27">You are blacklisted for that account.</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_28">You are suspected to send spam.</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_29">Partner does not have you in his contact list.</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_3">Login or e-mail is empty</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_30">The recipient is not online. Your message will be delivered when he logs in again.</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_31">Unspecified error. Please try again later</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_32">The group you are trying to delete is not empty. Please delete all partners in that group first.</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_33">Your TeamViewer account is not activated yet. Please activate it by clicking on the link in the activation e-mail we sent you during registration. Click "%2$s" if you didn\'t get the activation mail or to change the given e-mail address. Activation is required within the next %1$s days.</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_34">Your account needs to be activated to login to your account. Please activate it by clicking on the link in the activation e-mail we sent you during registration. Click \"%s\" if you didn\'t get the activation e-mail or to change the given e-mail address.</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_35">Your account is already validated.</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_36">Your e-mail address is invalid.</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_37">Invalid argument.</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_38">The number of scheduled meetings exceeds the maximum for free users.</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_39">The number of scheduled meetings exceeds the maximum.</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_4">Login or e-mail is too long</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_40">Login denied because there were too many failed login attempts. You can try again in %s seconds.</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_41">Login denied because there were too many failed login attempts. You can try again in %s seconds.</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_42">The selected language could not be identified. Please contact TeamViewer support.</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_43">Your TeamViewer version doesn\'t support this feature. Please update to the current version from \"Help\" -\" Check for new version\".</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_44">This license has already been activated on a different account. For further information, please contact your TeamViewer support.</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_45">Permission Denied</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_46">The account already is in a company.</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_47">A company with this name already exists. Please choose a different name.</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_48">Sharing failed for some accounts.</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_49">Request denied because you don\'t have sufficient permissions.</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_5">This login is already in use</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_50">Please specify your name.</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_51">You are already part of another company.</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_52">The given e-mail address doesn\'t belong to a company\'s administrator.</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_53">A key is already set for this group.</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_54">The account cannot be deleted while it is part of a company.</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_55">The last company account with the ability to manage cannot get deleted</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_56">The old password is not correct</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_57">Account upgrade pending, please try again later.</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_58">This license is already linked with another company.</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_59">You cannot move entries from a shared group into your own list.</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_6">This username is already in use</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_60">Your account is disabled, please contact your company’s administrator for further assistance.</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_61">You cannot withdraw permissions from the last administrative account.</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_62">You cannot move this device to a shared group as it is assigned to your account.</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_63">Unspecified error. Please try again later</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_64">TeamViewer doesn\'t support moving devices which are assigned to an account.</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_65">TeamViewer doesn\'t support sharing devices which are assigned to an account.</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_66">The security code you entered was invalid. Please login again.</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_67">Permission denied</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_68">Two factor authentication has already been activated for this account.</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_69">Two factor authentication has already been deactivated for this account.</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_7">This username doesn\'t exist</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_70">Too many attempts to activate two factor authentication for this account.</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_71">Too many attempts to deactivate two factor authentication for this account.</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_72">The security code you entered is invalid. Please try again.</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_73">Action is not supported for accounts assigned to a company.</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_74">Please change the assignee to \"unassigned\" in order to move the case to another group.</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_75">A group with the same name already exists!</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_76">You can’t create new service cases because of license limitations. Please upgrade your license or wait for a while to create new service cases.</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_77">The user ID is invalid. Please enter a valid user ID.</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_78">The requested session code does not exist.</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_79">You have exceeded the maximum amount of service cases per hour. Please wait for a while to create new service cases.</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_8">Wrong password</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_80">This contact is already in the Computers &amp; Contacts list of the group owner.</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_81">Your TeamViewer version doesn\'t support moving devices with ITbrain Anti-Malware policy: \"Inherit from group\"</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_82">Your TeamViewer version doesn\'t support moving devices with TeamViewer policy: \"Inherit from group\"</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_83">The company cannot be deleted because there are other accounts in the company.</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_84">Request not possible for accounts not in a company.</string>
+    <string name="tv_IDS_BUDDY_SERVERERROR_9">Invalid account ID</string>
+    <string name="tv_IDS_INCOMING_BLOCKED_DUE_MEETING">Your partner is currently hosting a meeting, therefore the connection was denied.</string>
+    <string name="tv_IDS_INCOMING_BLOCKED_DUE_MULTIPLE_CONNECTIONS">There is already an active connection to this device. Multiple remote control connections to this device are not possible.</string>
+    <string name="tv_IDS_INCOMING_BLOCKED_DUE_REMOTECONTROL">Your partner is currently using the TeamViewer for Remote Control app, therefore the connection was denied. Please tell your partner to only open TeamViewer QuickSupport.</string>
+    <string name="tv_IDS_NONCOMMERCIAL">This was a free session sponsored by www.teamviewer.com\r\n\r\nPlease note that free sessions are available for\r\nNON-COMMERCIAL USE ONLY.\r\n\r\nThank you for playing fair!</string>
+    <string name="tv_IDS_NONCOMMERCIAL_TITLE">Sponsored session</string>
+    <string name="tv_IDS_QUICK_ACCESS_REJECTED">Your partner rejected the Quick Access connection</string>
+    <string name="tv_IDS_SESSION_CODE_CREATION_FAILED">Invalid Configuration ID. Could not create a session code. Please get in touch with your app developer.</string>
+    <string name="tv_IDS_STATUS_AUTHENTICATIONREJECTED">Authentication rejected</string>
+    <string name="tv_IDS_STATUS_AUTHENTICATION_BLACKLISTED">You are blacklisted or not whitelisted by this partner.</string>
+    <string name="tv_IDS_STATUS_AUTHENTICATION_BLOCKED">Connection blocked because of multiple failed logins. You can try again in %d seconds.</string>
+    <string name="tv_IDS_STATUS_AUTHENTICATION_FAILED">Authentication failed</string>
+    <string name="tv_IDS_STATUS_AUTHENTICATION_NOINCOMING">This partner does not accept incoming connections!</string>
+    <string name="tv_IDS_STATUS_AUTHENTICATION_NOLANCONNECTION">This partner does not accept incoming LAN connections!</string>
+    <string name="tv_IDS_STATUS_ConnectNoRoute">Connection failed (no route)</string>
+    <string name="tv_IDS_STATUS_ConnectToOwnID">Connections to own TeamViewer ID not allowed</string>
+    <string name="tv_IDS_STATUS_INCOMPATIBLE">Incompatible TeamViewer versions</string>
+    <string name="tv_IDS_STATUS_MOBILE_LICENSE_REQUIRED">Additional TeamViewer license required.</string>
+    <string name="tv_IDS_STATUS_MSG_NOROUTE_CommercialUse">Blocked because commercial use suspected</string>
+    <string name="tv_IDS_STATUS_MSG_NOROUTE_ConnectAlreadyJoined">You have already joined this meeting.</string>
+    <string name="tv_IDS_STATUS_MSG_NOROUTE_ControlIDNotFound">Control ID not found.</string>
+    <string name="tv_IDS_STATUS_MSG_NOROUTE_DenyIncoming">Partner does not accept connections.\r\nPartner\'s security settings do not allow incoming connections when the connection dialog is closed.</string>
+    <string name="tv_IDS_STATUS_MSG_NOROUTE_ExcessiveUse">You established and aborted connections too frequently. Please wait for a while before the next connection.</string>
+    <string name="tv_IDS_STATUS_MSG_NOROUTE_FreeRoutersInUse">All routers for the free version are currently in use, please try again later.</string>
+    <string name="tv_IDS_STATUS_MSG_NOROUTE_IdNotFound">The TeamViewer ID you have entered does not exist.</string>
+    <string name="tv_IDS_STATUS_MSG_NOROUTE_InvalidCustomerID">This session has already been started by another user.</string>
+    <string name="tv_IDS_STATUS_MSG_NOROUTE_InvalidLicense">Your current license is not compatible with your partner\'s TeamViewer version. You need to update your license to the current version.</string>
+    <string name="tv_IDS_STATUS_MSG_NOROUTE_InvalidSupporterID">This session has already been started by another user.</string>
+    <string name="tv_IDS_STATUS_MSG_NOROUTE_KeepAliveInactive">Partner is not connected to TeamViewer server.\r\nThe partner can only be contacted when connected to the TeamViewer server. Please make sure partner\'s connection dialog is open.</string>
+    <string name="tv_IDS_STATUS_MSG_NOROUTE_KeepAliveLost">A connection to the requested partner could not be established.\r\n\r\nPlease check TeamViewer and the internet connection on your partner\'s computer.</string>
+    <string name="tv_IDS_STATUS_MSG_NOROUTE_KeepAliveTimeout">TeamViewer timeout on partner computer.\r\n\r\nThe partner\'s connection to the TeamViewer server has been stopped due to a timeout in TeamViewer Free.\r\nThe licensed TeamViewer versions allow unlimited timeout, please check out the TeamViewer website for more information.</string>
+    <string name="tv_IDS_STATUS_MSG_NOROUTE_LicenseBlocked">Either your license or your partner\'s license is blocked.</string>
+    <string name="tv_IDS_STATUS_MSG_NOROUTE_LicenseExpired">The TeamViewer license of your partner has expired.</string>
+    <string name="tv_IDS_STATUS_MSG_NOROUTE_LoggedOut">TeamViewer not running on partner computer.</string>
+    <string name="tv_IDS_STATUS_MSG_NOROUTE_MeetingIncompatibleVersion">The meeting you are trying to join is incompatible with your TeamViewer version.</string>
+    <string name="tv_IDS_STATUS_MSG_NOROUTE_NoControlSupport">Partner does not support connections via control files, please update partner\'s TeamViewer version.</string>
+    <string name="tv_IDS_STATUS_MSG_NOROUTE_NoMachineAvailable">Sorry, all demo computers are currently in use. Please try again later!</string>
+    <string name="tv_IDS_STATUS_MSG_NOROUTE_NoServer">The destination server is unavailable.</string>
+    <string name="tv_IDS_STATUS_MSG_NOROUTE_SessionClosed">Session is already closed.</string>
+    <string name="tv_IDS_STATUS_MSG_NOROUTE_SessionExpired">Session code expired.</string>
+    <string name="tv_IDS_STATUS_MSG_NOROUTE_SessionLimit">The connection could not be established.\r\n\r\nThe maximum number of your concurrent TeamViewer sessions has been reached. Please wait until other sessions are closed or expand the number of your session channels.\r\n\r\nAdditional channels can be used immediately after the order is placed.</string>
+    <string name="tv_IDS_STATUS_MSG_NOROUTE_SmartAccessDenied">QuickConnect denied.</string>
+    <string name="tv_IDS_STATUS_MSG_NOROUTE_TimeoutBlock">Connection blocked after timeout.\r\n\r\nYour license limits the maximum session duration to a partner, immediate reconnects are blocked. Please try later or upgrade your license.\r\n\r\nConnections to this partner will be blocked until %s.</string>
+    <string name="tv_IDS_STATUS_MSG_NOROUTE_UnknownSupportSessionID">Unknown session</string>
+    <string name="tv_NewMajorVersion">Sorry, a connection is not possible because your partner uses a newer version of TeamViewer.</string>
+    <string name="tv_connect">Connect to partner</string>
+    <string name="tv_connectFailedOlderVersion">Could not create connection!\r\nYour partner\'s version of TeamViewer is not compatible with your version.\r\nPlease advise your partner to update to the current version of TeamViewer.</string>
+    <string name="tv_connectFailedOlderVersionTitle">Partner\'s Version</string>
+    <string name="tv_connectFailedVersion">Connection failed because your partner\'s TeamViewer version is too old. Version %d or higher is required to connect.</string>
+    <string name="tv_connectNoConnection">A connection could not be established. Please check your internet connection and try again.</string>
+    <string name="tv_connecting">Connecting...</string>
+    <string name="tv_connectingPleaseWait">Please wait while connecting</string>
+    <string name="tv_connectingWaitForAccept">Please wait until your contact accepts your request.</string>
+    <string name="tv_errorMessage_FeatureNotAvailable">Feature not available</string>
+    <string name="tv_errorMessage_InternalAndroidError">Internal Android error: </string>
+    <string name="tv_errorMessage_LoadingNativeScreenshotLibrary">Could not load native screenshot library. Please try to move installation to internal memory.</string>
+    <string name="tv_errorMessage_LoadingNativeScreenshotLibrary_Caption">Error loading library</string>
+    <string name="tv_errorMessage_NoStorageAvailableText">TeamViewer needs access to the external storage in order to send e-mails.</string>
+    <string name="tv_errorMessage_NoStorageAvailableTitle">No storage</string>
+    <string name="tv_errorMessage_PARTNER_NEW_MAJOR_VERSION">Your partner uses a newer version of TeamViewer. Would you like to update TeamViewer now to establish a connection?</string>
+    <string name="tv_errorMessage_SdkReconnectFailed">Connection lost. Please reconnect</string>
+    <string name="tv_errorMessage_UNSUPPORTED_CONNECTION_TYPE">Your partner does not support file transfer connection mode. Please choose \'Remote control\' and try again. </string>
+    <string name="tv_errorMessage_connect_ACTION_CONNECT_ABORT">Connection aborted</string>
+    <string name="tv_errorMessage_connect_ERROR_AUTHENTIFICATION">Login cancelled</string>
+    <string name="tv_errorMessage_connect_ERROR_CONNECT_PENDING">Connecting...</string>
+    <string name="tv_errorMessage_connect_ERROR_MASTER_RESPONSE">Connection error</string>
+    <string name="tv_errorMessage_connect_ERROR_MASTER_UNKNOWN_MEETING_ID">Connection error: Meeting ID not found</string>
+    <string name="tv_errorMessage_connect_MEETING_OVER">This meeting has already taken place</string>
+    <string name="tv_error_pl_login_timeout">Your login request has been timed out. Please try again.</string>
+    <string name="tv_filetransfer_access_confirm">Access needs to be confirmed</string>
+    <string name="tv_filetransfer_access_denied">Access denied</string>
+    <string name="tv_filetransfer_dialog_file_exists_header">File already exists</string>
+    <string name="tv_filetransfer_dialog_file_exists_override">Override</string>
+    <string name="tv_filetransfer_dialog_file_exists_resume">Resume</string>
+    <string name="tv_filetransfer_dialog_file_exists_skip">Skip</string>
+    <string name="tv_filetransfer_error_create_dir_failed">Folder could not be created - skip all</string>
+    <string name="tv_filetransfer_error_drop_root">Can\'t drop files here</string>
+    <string name="tv_filetransfer_error_filesystem">The filesystem reported an error (Access denied etc.)</string>
+    <string name="tv_filetransfer_error_opdenied">Operation denied</string>
+    <string name="tv_filetransfer_external_storage">External storage</string>
+    <string name="tv_filetransfer_my_desktop">Desktop</string>
+    <string name="tv_filetransfer_my_documents">Documents</string>
+    <string name="tv_filetransfer_my_downloads">My Downloads</string>
+    <string name="tv_filetransfer_my_movies">My Movies</string>
+    <string name="tv_filetransfer_my_music">My Music</string>
+    <string name="tv_filetransfer_my_network">Network</string>
+    <string name="tv_filetransfer_my_photos">My Photos</string>
+    <string name="tv_filetransfer_my_pictures">My Pictures</string>
+    <string name="tv_filetransfer_session_abort">Session aborted</string>
+    <string name="tv_filetransfer_session_err_fserror">File system error</string>
+    <string name="tv_filetransfer_session_err_getdir">The folder couldn\'t be opened due to an unknown reason.</string>
+    <string name="tv_filetransfer_session_err_getdiraccess">The folder couldn\'t be accessed due to missing permissions.</string>
+    <string name="tv_filetransfer_session_err_invalsession">Invalid SessionID</string>
+    <string name="tv_filetransfer_session_err_other">An error occurred</string>
+    <string name="tv_filetransfer_session_err_servererror">Server error</string>
+    <string name="tv_license">License</string>
+    <string name="tv_license_Business">Business</string>
+    <string name="tv_license_Channel_String_P">channels</string>
+    <string name="tv_license_Channel_String_S">channel</string>
+    <string name="tv_license_Corporate">Corporate</string>
+    <string name="tv_license_Enterprise">Enterprise</string>
+    <string name="tv_license_Free">Free</string>
+    <string name="tv_license_FreeReg">Free (Registered)</string>
+    <string name="tv_license_Host">Host</string>
+    <string name="tv_license_Premium">Premium</string>
+    <string name="tv_license_SB">Small Business</string>
+    <string name="tv_license_Trial">Trial version</string>
+    <string name="tv_license_server_Enterprise">TeamViewer Server Enterprise</string>
+    <string name="tv_license_server_trial">TeamViewer server trial</string>
+    <string name="tv_mail_feedback_content">Beta Feedback: \n\n\nProblems:\n\n\nBest Feature:\n\n\nMissing Feature:\n\n\n</string>
+    <string name="tv_mail_feedback_receiver">support@teamviewer.com</string>
+    <string name="tv_mail_feedback_subject">Beta Feedback Meeting</string>
+    <string name="tv_message_TcpReconnectStarted">The connection has been lost. Trying to reconnect...</string>
+    <string name="tv_message_TcpReconnectStarted_Title">Connection error</string>
+    <string name="tv_ok">OK</string>
+    <string name="tv_options">Options</string>
+    <string name="tv_options_Automatic">Automatic</string>
+    <string name="tv_options_ConnectionLogEmailText">The connection.txt can be found in the attachment of this e-mail</string>
+    <string name="tv_options_ConnectionLogSubject">TeamViewer Android connection file</string>
+    <string name="tv_options_CrashLogDefaultReceiver">support@teamviewer.com</string>
+    <string name="tv_options_CrashLogDefaultSubject">TeamViewer Android problem report</string>
+    <string name="tv_options_CrashLogDefaultText">Problem description:</string>
+    <string name="tv_options_EnableAutoLocking">Lock remote computer</string>
+    <string name="tv_options_EnableAutoLocking_Always">Always</string>
+    <string name="tv_options_EnableAutoLocking_AutoSelect">Auto select</string>
+    <string name="tv_options_EnableAutoLocking_Disable">Disable</string>
+    <string name="tv_options_EventLog">Event log</string>
+    <string name="tv_options_EventLogDefaultReceiver">support@teamviewer.com</string>
+    <string name="tv_options_EventLogDefaultSubject">TeamViewer Android log file</string>
+    <string name="tv_options_EventLogEmailText">The log file can be found in the attachment of this e-mail</string>
+    <string name="tv_options_InputMethod">Input method</string>
+    <string name="tv_options_InputMethodMouse">Mouse interactions</string>
+    <string name="tv_options_InputMethodTouch">Touch interactions</string>
+    <string name="tv_options_OptimizeQuality">Optimize quality</string>
+    <string name="tv_options_OptimizeSpeed">Optimize speed</string>
+    <string name="tv_options_PreferredResolution">Screen resolution</string>
+    <string name="tv_options_PreferredResolutionBestFit">Best fit</string>
+    <string name="tv_options_PreferredResolutionDontChange">Don\'t change</string>
+    <!-- From: file:/E:/WS/A_TV11F_SDK/TeamViewerLib/res/values/keys.xml -->
+    <eat-comment/>
+    <string name="tv_options_autolock_key_always">autolock_always</string>
+    <string name="tv_options_autolock_key_automatic">autolock_automatic</string>
+    <string name="tv_options_autolock_key_disable">autolock_disable</string>
+    <!-- From: file:/E:/WS/A_TV11F_SDK/TeamViewerLib/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="tv_options_meeting_name">Name</string>
+    <string name="tv_options_meeting_name_default_value"/>
+    <string name="tv_protocolNegotiationFailed">Protocol negotiation failed!</string>
+    <string name="tv_qs_allow">Allow</string>
+    <string name="tv_qs_deny">Deny</string>
+    <string name="tv_qs_incomingRemoteSupportConnectionMessage">Would you like to allow %s to remote support your Android device?</string>
+    <string name="tv_qs_incomingRemoteSupportConnectionTitle">Allow remote support?</string>
+    <string name="tv_qs_notification_disconnect_text">The session with %s is finished</string>
+    <string name="tv_qs_notification_waiting_content">Waiting for partner...</string>
+    <string name="tv_qs_waiting_message">Please wait until your partner joins the session.</string>
+    <string name="tv_rs_event_app_installed">%s app has been installed</string>
+    <string name="tv_rs_event_app_removed">%s app has been uninstalled</string>
+    <string name="tv_rs_event_clipboard">Text has been copied to your clipboard</string>
+    <string name="tv_rs_event_directory_created"><![CDATA[<b>Folder has been created:</b><br /><i>%s</i>]]></string>
+    <string name="tv_rs_event_directory_sent">Folder has been sent:\n%s</string>
+    <string name="tv_rs_event_file_deleted">File has been deleted:\n%s</string>
+    <string name="tv_rs_event_process_stopped">Process %s has been stopped</string>
+    <string name="tv_rs_event_screenshot_requested">Please take a screenshot.\n(On most devices press Volume Down + Power Off)</string>
+    <string name="tv_rs_event_screenshot_sent">Screenshot has been sent</string>
+    <string name="tv_rs_event_session_started">%s has connected to your device...</string>
+    <string name="tv_rs_event_wifi_added">Wi-Fi %s has been added.</string>
+    <string name="tv_rs_event_wifi_changed">Wi-Fi %s has been edited.</string>
+    <string name="tv_rs_event_wifi_removed">Wi-Fi %s has been removed.</string>
+    <string name="tv_rs_notification_connect_text">Connected to %s</string>
+    <string name="tv_rs_notification_connect_ticker">Connection established</string>
+    <string name="tv_rs_notification_title">QuickSupport</string>
+    <string name="tv_rs_nudge_notification_title">User input required</string>
+    <string name="tv_rs_screen_notification_text">TeamViewer QuickSupport</string>
+    <string name="tv_rs_screen_notification_ticker">Screen sharing now active</string>
+    <string name="tv_rs_screen_notification_title">Screen sharing active</string>
+    <string name="tv_sdk_EventLogDefaultSubject">TeamViewer Android Screen sharing SDK log file</string>
+    <string name="tv_sdk_EventLogEmailText">Problem description:</string>
+    <string name="tv_sdk_IDS_STATUS_MSG_NOROUTE_SessionClosed">This session code is closed. Please request a new session code from your partner.</string>
+    <string name="tv_sdk_IDS_STATUS_MSG_NOROUTE_SessionExpired">This session code is expired. Please request a new session code from your partner.</string>
+    <string name="tv_sdk_IDS_STATUS_MSG_NOROUTE_SessionInvalid">This session code is invalid. Please request a new session code from your partner.</string>
+    <string name="tv_sdk_incomingRemoteSupportConnectionMessage">Would you like to allow %s to remote support this app?</string>
+    <string name="tv_send">Send</string>
+    <string name="tv_sendEmail_ActivityNotFoundException">There is no email app available. Please install an email app and try again.</string>
+    <string name="tv_supportedFeatureMessage_NoScreenResChange">The remote TeamViewer does not support to change the screen resolution.</string>
+    <string name="tv_teamviewer">TeamViewer</string>
+    <string name="tv_tickertext_still_connected">Still connected...</string>
+    <string name="tv_toastSavingFailed">Saving failed</string>
+    <!-- From: file:/E:/WS/A_TV11F_SDK/TeamViewerLib/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="tv_NotificationText">
+		<item name="android:textAppearance">
+			@android:style/TextAppearance.StatusBar.EventContent
+		</item>
+	</style>
+    <style name="tv_NotificationTitle">
+		<item name="android:textAppearance">
+			@android:style/TextAppearance.StatusBar.EventContent.Title
+		</item>
+	</style>
+    <style name="tv_TVDialogButtonStyle" parent="android:style/Widget.Button.Small">
+      <item name="android:padding">10dp</item>
+  </style>
+    <style name="tv_TVDialogTextViewStyle" parent="android:style/TextAppearance.Medium">
+      <item name="android:textColor">@android:color/primary_text_dark</item>
+  </style>
+    <!-- From: file:/E:/WS/A_TV11F_SDK/ScreenSharingSDK/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="tv_content_text_appearance" parent="@android:style/TextAppearance.Small">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="tv_content_text_appearance_header" parent="@android:style/TextAppearance.Small">
+		<item name="android:textColor">@color/tv_holo_blue_light</item>
+    </style>
+    <style name="tv_dialog_buttonstyle" parent="@android:Widget.Button">
+	  <item name="android:textColor">@android:color/black</item>
+	  <item name="android:background">@drawable/tv_holo_light_button</item>
+	  <item name="android:clickable">true</item>
+	  <item name="android:layout_margin">0dp</item>
+      <item name="android:textSize">12sp</item> <!-- samsung workaround -->
+	  <item name="android:textAppearance">@style/tv_content_text_appearance</item>
+ 	</style>
+</resources>

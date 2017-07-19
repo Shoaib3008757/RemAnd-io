@@ -1,0 +1,66 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/custom_notification_layout"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="horizontal">
+
+	<LinearLayout
+		android:layout_width="@dimen/tv_custom_notification_icon_layout_width"
+		android:layout_height="match_parent"
+		android:gravity="center">
+
+		<ImageView
+			android:id="@+id/tv_notification_main_imageview"
+			android:layout_width="40dp"
+			android:layout_height="40dp" />
+
+	</LinearLayout>
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_gravity="center_vertical"
+		android:gravity="center_vertical">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:orientation="vertical"
+			android:gravity="center_vertical"
+			android:layout_alignParentLeft="true"
+			android:layout_toStartOf="@+id/tv_notification_close_imageview">
+
+			<TextView
+				android:id="@+id/tv_notification_title"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Sample Title"
+				style="@style/tv_NotificationTitle" />
+
+			<TextView
+				android:id="@+id/tv_notification_text"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				style="@style/tv_NotificationText"
+				android:text="Sample Text"
+				android:maxLines="1"
+				android:ellipsize="end" />
+
+		</LinearLayout>
+
+		<ImageView
+			android:id="@+id/tv_notification_close_imageview"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:paddingTop="16dp"
+			android:paddingRight="8dp"
+			android:paddingBottom="16dp"
+			android:paddingLeft="16dp"
+			android:layout_alignParentRight="true"
+			android:layout_centerVertical="true"
+			android:src="@drawable/ic_notification_close" />
+
+	</RelativeLayout>
+
+</LinearLayout><!-- From: file:/E:/WS/A_TV11F_SDK/TeamViewerLib/res/layout/tv_notification_custom_layout.xml -->

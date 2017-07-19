@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/tv_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android To Android Screen Share"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:id="@+id/tv_top2"
+        android:layout_below="@+id/tv_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share Your Mobile Screen In Easy Way"
+        android:textColor="@color/white"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="15dp"/>
+
+
+
+    <TextView
+        android:id="@+id/tv_top3"
+        android:layout_below="@+id/tv_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share Your Mobile Device With Other Users"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp"/>
+
+    <RelativeLayout
+        android:id="@+id/rr_call"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/tv_top3"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/corner">
+
+        <TextView
+            android:id="@+id/bt_make_call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Audio Call"
+            android:textColor="@color/white"/>
+
+    </RelativeLayout>
+
+<!--
+    <Button
+        android:id="@+id/bt_make_call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Audio Call"
+        android:layout_below="@+id/tv_top3"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp"/>
+-->
+
+    <TextView
+        android:id="@+id/tv_top4"
+        android:layout_below="@+id/rr_call"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share Your Mobile Device With Other Users"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_centerHorizontal="true" />
+
+ <!--   <Button
+        android:id="@+id/bt_shhareScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Screen Share"
+        android:textAllCaps="false"
+        android:layout_below="@+id/tv_top4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>-->
+
+    <RelativeLayout
+        android:id="@+id/bt_shhareScreen"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/tv_top4"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/corner">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="ShareScreen"
+            android:textColor="@color/white"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

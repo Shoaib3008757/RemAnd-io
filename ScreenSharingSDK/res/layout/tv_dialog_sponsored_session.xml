@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+
+NOTE: This is just a placeholder view, which defines the views. Will be overwritten
+in the specific app.
+Currently only used for the host app.
+
+-->
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:orientation="vertical">
+
+	<TextView
+		android:id="@+id/sponsored_session_message"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textIsSelectable="false" />
+
+</LinearLayout><!-- From: file:/E:/WS/A_TV11F_SDK/TeamViewerLib/res/layout/tv_dialog_sponsored_session.xml -->

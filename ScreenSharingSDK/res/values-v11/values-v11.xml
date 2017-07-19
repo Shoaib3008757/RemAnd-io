@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/E:/WS/A_TV11F_SDK/TeamViewerLib/res/values-v11/styles.xml -->
+    <eat-comment/>
+    <style name="tv_TVDialogButtonStyle" parent="android:style/Widget.Holo.Light.Button.Borderless.Small">
+   </style>
+    <style name="tv_TVDialogTextViewStyle" parent="android:style/TextAppearance.Small">
+      <item name="android:textColor">@android:color/primary_text_light</item>
+    </style>
+</resources>

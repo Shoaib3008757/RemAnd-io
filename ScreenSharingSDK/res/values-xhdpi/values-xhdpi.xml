@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/E:/WS/A_TV11F_SDK/IncomingSessionLib/res/values-xhdpi/dimens.xml -->
+    <eat-comment/>
+    <dimen name="tv_show_marker_hotspot_x">33px</dimen>
+    <dimen name="tv_show_marker_hotspot_y">16px</dimen>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+ ~ Copyright 2013-2014 TeamViewer (www.teamviewer.com).  All rights reserved.
+ ~
+ ~ Please refer to the end user license agreement (EULA), the app developer agreement and license 
+ ~ information associated with this source code for terms and 
+ ~ conditions that govern your use of this software. 
+ -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+<item android:state_pressed="true" 
+        android:state_focused="false" 
+        android:state_enabled="true"        
+        android:drawable="@color/tv_holo_blue_light" />
+
+ <item android:drawable="@android:color/transparent" />
+  
+</selector>
+
+<!-- From: file:/E:/WS/A_TV11F_SDK/ScreenSharingSDK/res/drawable/tv_holo_light_button.xml -->
